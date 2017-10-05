@@ -3,7 +3,7 @@
     {
       "id": "cb7c70bc",
       "type": "function",
-      "x": 410,
+      "x": 405,
       "y": 220,
       "name": "Get Buses",
       "outputs": 1,
@@ -12,7 +12,7 @@
       "runtime": "nodejs",
       "location": "git",
       "source": "const stackery = require('stackery')\n\nmodule.exports = function handler(message) {\n  console.dir(message)\n\n  let response = {}\n  \n  return response\n}",
-      "gitRepo": "https://github.com/haffmaestro/bus-bus",
+      "gitRepo": "https://github.com/haffmaestro/translink-api-function",
       "envVars": {
         "TRANSLINK_API_ID": "JBXYonr6MIHDrGtPfY8s"
       },
